@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Personales.Pages.DatosPersonales"
+             Title="Datos Personales"
+             BackgroundColor="#0B243B">
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Text="Datos Personales " Grid.Row="0" FontSize="Large" TextColor="White"></Label>
+            <Entry Placeholder="Nombre" Grid.Row="1" BackgroundColor="White"></Entry>
+            <Entry Placeholder="Apellido Paterno" Grid.Row="2" BackgroundColor="White"></Entry>
+            <Entry Placeholder="Apellido Materno" Grid.Row="3" BackgroundColor="White"></Entry>
+            <Entry Placeholder="Domicilio" Grid.Row="4" BackgroundColor="White"></Entry>
+            <Entry Placeholder="Telefono" Keyboard="Telephone" Grid.Row="5" BackgroundColor="White"></Entry>
+            <Button Text="Siguiente" TextColor="White" Grid.Row="6" Clicked="nextPage" BackgroundColor="#0174DF" BorderColor="White" BorderRadius="15"></Button>
+        </Grid>
+    </ScrollView>
+</ContentPage>
