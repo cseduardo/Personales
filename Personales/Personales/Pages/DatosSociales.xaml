@@ -15,7 +15,7 @@
             <Label Text="Datos Sociales " Grid.Row="0" FontSize="Large" TextColor="White"></Label>
             <Entry Placeholder="Correo" Grid.Row="1" BackgroundColor="White" Keyboard="Email"></Entry>
             <Entry Placeholder="GitHub" Grid.Row="2" BackgroundColor="White" Keyboard="Url"></Entry>
-            <!--<Button Text="Siguiente" TextColor="White" Grid.Row="6" BackgroundColor="#0174DF" BorderColor="White" BorderRadius="15"></Button>-->
+            <Button Text="Siguiente" TextColor="White" Grid.Row="6" BackgroundColor="#0174DF" BorderColor="White" BorderRadius="15"></Button>
         </Grid>
     </ScrollView>
 </ContentPage>

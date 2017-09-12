@@ -6,6 +6,9 @@
              BackgroundColor="#0B243B">
     <ScrollView>
         <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition
+            </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"></RowDefinition>
                 <RowDefinition Height="Auto"></RowDefinition>
