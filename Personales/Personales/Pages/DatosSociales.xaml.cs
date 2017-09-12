@@ -16,5 +16,9 @@ namespace Personales.Pages
 		{
 			InitializeComponent ();
 		}
-	}
+        public void nextPaged(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new DatosSociales());
+        }
+    }
 }
