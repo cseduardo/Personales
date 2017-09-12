@@ -30,7 +30,7 @@
                 </x:Array>
                 </Picker.ItemsSource> ></Picker>
             <Entry Placeholder="Matricula" Grid.Row="3" BackgroundColor="White" Keyboard="Numeric"></Entry>
-            <Button Text="Siguiente" TextColor="White" Grid.Row="6" Clicked="nextPage" BackgroundColor="#0174DF" BorderColor="White" BorderRadius="15"></Button>
+            <Button Text="Siguiente" TextColor="White" Grid.Row="4" Clicked="nextPaged" BackgroundColor="#0174DF" BorderColor="White" BorderRadius="15"></Button>
         </Grid>
     </ScrollView>
 </ContentPage>
