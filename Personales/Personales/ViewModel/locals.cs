@@ -7,6 +7,7 @@ using Personales.Pages;
 
 namespace Personales.ViewModel
 {
+    //a public and static class is created to be able to create static variables and thus to be able to use those variables in different pages
     public static class locals
     {
         public static string nombre;
