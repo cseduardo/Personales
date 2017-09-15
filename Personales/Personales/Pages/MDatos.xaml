@@ -4,8 +4,11 @@
              x:Class="Personales.Pages.MDatos"
              BackgroundColor="#0B243B">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin Forms!" />
+        <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand">
+            <Label Text="Hoja de Datos" TextColor="White" FontSize="Large"></Label>
+            <ScrollView>
+                <Label x:Name="dCompletos" Text="" TextColor="White"/>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
