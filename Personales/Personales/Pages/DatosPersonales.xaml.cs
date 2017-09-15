@@ -17,8 +17,11 @@ namespace Personales.Pages
         {
             InitializeComponent();
         }
+
+        //button event is created
         public void nextPage (object sender, EventArgs e)
         {
+            /*the variables created in the locals class are called to save the value contained in the entry*/
             ViewModel.locals.nombre = name.Text;
             ViewModel.locals.ape_pat = lastname.Text;
             ViewModel.locals.ape_mat = surname.Text;
@@ -29,6 +32,9 @@ namespace Personales.Pages
             ViewModel.locals.municipio = mun.Text;
             ViewModel.locals.estado = state.Text;
             ViewModel.locals.num_telefono = Convert.ToInt32(telephone.Text);
+            /*as in the class locals you are assigned a type of variable in specific, if in the XAML it is indicated that the entry is 
+             * of type number must be converted to variables of type int, double, float, any type variable of number before gardarla in 
+             * the variable*/
             Navigation.PushModalAsync(new DatosEscolares());
         }
     }

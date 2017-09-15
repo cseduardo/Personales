@@ -6,23 +6,35 @@
              BackgroundColor="#0B243B"
              Padding="20">
     <ScrollView>
+        <!--a grid of two columns is created by 10 rows-->
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"></ColumnDefinition>
                 <ColumnDefinition Width="Auto"></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"></RowDefinition><!--0-->
-                <RowDefinition Height="Auto"></RowDefinition><!--1-->
-                <RowDefinition Height="Auto"></RowDefinition><!--2-->
-                <RowDefinition Height="Auto"></RowDefinition><!--3-->
-                <RowDefinition Height="Auto"></RowDefinition><!--4-->
-                <RowDefinition Height="Auto"></RowDefinition><!--5-->
-                <RowDefinition Height="Auto"></RowDefinition><!--6-->
-                <RowDefinition Height="Auto"></RowDefinition><!--7-->
                 <RowDefinition Height="Auto"></RowDefinition>
+                <!--0-->
                 <RowDefinition Height="Auto"></RowDefinition>
+                <!--1-->
+                <RowDefinition Height="Auto"></RowDefinition>
+                <!--2-->
+                <RowDefinition Height="Auto"></RowDefinition>
+                <!--3-->
+                <RowDefinition Height="Auto"></RowDefinition>
+                <!--4-->
+                <RowDefinition Height="Auto"></RowDefinition>
+                <!--5-->
+                <RowDefinition Height="Auto"></RowDefinition>
+                <!--6-->
+                <RowDefinition Height="Auto"></RowDefinition>
+                <!--7-->
+                <RowDefinition Height="Auto"></RowDefinition>
+                <!--8-->
+                <RowDefinition Height="Auto"></RowDefinition>
+                <!--9-->
             </Grid.RowDefinitions>
+            <!--the views are created and given an order in the created grid-->
             <Label Text="Datos Personales " Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="Large" TextColor="White"></Label>
             <Entry x:Name="name" Placeholder="Nombre" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="White"></Entry>
             <Entry x:Name="lastname" Placeholder="Apellido Paterno" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="White"></Entry>

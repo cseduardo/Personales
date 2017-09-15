@@ -8,6 +8,7 @@
         <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand">
             <Label Text="Hoja de Datos" TextColor="White" FontSize="Large"></Label>
             <ScrollView>
+                <!--a label is created without text defined because it will be assigned a value with the values ​​that are stored in the variables of the local class-->
                 <Label x:Name="dCompletos" Text="" TextColor="White"/>
             </ScrollView>
         </StackLayout>
