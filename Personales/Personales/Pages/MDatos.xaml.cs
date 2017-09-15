@@ -17,10 +17,11 @@ namespace Personales.Pages
         public MDatos()
         {
             InitializeComponent();
-            dCompletos.Text = "NOMBRE COMPLETO: " + locals.nombre + " " + locals.ape_pat + " " + locals.ape_mat + " TELEFONO: " + locals.num_telefono +
-                "\nDOMICILIO\nCALLE: " + locals.calle + " NUMERO: " + locals.num_calle + " CODIGO POSTAL: " + locals.cod_postal + "\nMUNICIPIO: " +
-                locals.municipio + "\nESTADO: " + locals.estado + "\n ESCUELA\nCARRERA: " + locals.carrera + " SEMESTRE: " + locals.semestre + " MATRICULA: " +
-                locals.id + "\nSOCIALES\nCORREO: " + locals.email + "\ngitHub: " + locals.git;
+            dCompletos.Text = "NOMBRE COMPLETO: " + locals.nombre + " " + locals.ape_pat + " " + locals.ape_mat + " TELEFONO: " +
+                locals.num_telefono +"\nDOMICILIO\nCALLE: " + locals.calle + " NUMERO: " + locals.num_calle + " CODIGO POSTAL: " + 
+                locals.cod_postal + "\nMUNICIPIO: " +locals.municipio + "\nESTADO: " + locals.estado + "\n ESCUELA\nCARRERA: " + 
+                locals.carrera + " SEMESTRE: " + locals.semestre + " MATRICULA: " +locals.id + "\nSOCIALES\nCORREO: " + locals.email + 
+                "\ngitHub: " + locals.git;
         }
     }
 }
