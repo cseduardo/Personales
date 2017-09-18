@@ -13,7 +13,7 @@ namespace Personales
         {
             InitializeComponent();
 
-            MainPage = new Personales.Pages.DatosPersonales();
+            MainPage = new Personales.Pages.Inicio();
         }
 
         protected override void OnStart()

@@ -24,5 +24,13 @@ namespace Personales.Pages
                 locals.carrera + " SEMESTRE: " + locals.semestre + " MATRICULA: " +locals.id + "\nSOCIALES\nCORREO: " + locals.email + 
                 "\ngitHub: " + locals.git;
         }
+        private void pricipalPage(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new Pages.DatosPersonales());
+        }
+        private void finish_OnClicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

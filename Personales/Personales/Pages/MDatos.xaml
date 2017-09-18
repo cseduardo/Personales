@@ -11,6 +11,8 @@
                 <!--a label is created without text defined because it will be assigned a value with the values ​​that are stored in the variables of the local class-->
                 <Label x:Name="dCompletos" Text="" TextColor="White"/>
             </ScrollView>
+            <Button Text="Ingresar nuevo" TextColor="White" Clicked="pricipalPage" BackgroundColor="#0174DF" BorderColor="White" BorderRadius="15"></Button>
+            <!--<Button Text="Finalizar" TextColor="White" Clicked="finish_OnClicked" BackgroundColor="#0174DF" BorderColor="White" BorderRadius="15"></Button>-->
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

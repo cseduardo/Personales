@@ -16,6 +16,8 @@
             </Grid.RowDefinitions>
             <Label Text="Datos Escolares " Grid.Row="0" FontSize="Large" TextColor="White"></Label>
             <Entry x:Name="career" Placeholder="Carrera" Grid.Row="1" BackgroundColor="White"></Entry>
+            
+            
             <Picker x:Name="picker" Title="Semestre" Grid.Row="2" BackgroundColor="White">
                 <Picker.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
@@ -28,10 +30,16 @@
                     <x:String>Septimo</x:String>
                     <x:String>Octavo</x:String>
                     <x:String>Noveno</x:String>
-                </x:Array>
+                    <x:String>Decimo</x:String>
+                    <x:String>Onceavo</x:String>
+                    <x:String>Decimo</x:String>
+                    <x:String>Treceavo</x:String>
+                    </x:Array>
                 </Picker.ItemsSource> ></Picker>
-            <Entry x:Name="matricula" Placeholder="Matricula" Grid.Row="3" BackgroundColor="White" Keyboard="Numeric"></Entry>
-            <Button Text="Siguiente" TextColor="White" Grid.Row="4" Clicked="nextPaged" BackgroundColor="#0174DF" BorderColor="White" BorderRadius="15"></Button>
+            
+            
+            <Entry x:Name="matricula" Placeholder="Matricula" Grid.Row="3" BackgroundColor="White" Keyboard="Numeric" TextChanged="only_num"></Entry>
+            <Button x:Name="nextp" Text="Siguiente" TextColor="White" Grid.Row="4" Clicked="nextPaged" BackgroundColor="#0174DF" BorderColor="White" BorderRadius="15"></Button>
         </Grid>
     </ScrollView>
 </ContentPage>

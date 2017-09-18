@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Personales.Pages.Inicio"
+             BackgroundColor="#0B243B">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Button Text="Ingresar Información" TextColor="White" FontSize="Large" BackgroundColor="#0174DF" Clicked="nextPage" BorderColor="White" ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
